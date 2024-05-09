@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+
+
+
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+
+}
+
+h1 {
+    color:  rgb(149, 41, 250);
+    position: absolute;
+    top: 90%;
+}
+
+.header {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+ 
+    background-image: url('./../img/d04ab61803ae185fecfc5a65c84b1dd3.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+.back {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-image: url('./../img/cbc68c336dad31051bf760c10a833dba.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
