@@ -11,40 +11,10 @@
 </head>
 <body>
     
-
-    <script>
-        function setup() {
-  createCanvas(windowWidth, windowHeight);
-  background(0);
-  noFill();
-  stroke('pink');
-  strokeWeight(2);
-  translate(width / 2, height / 2 + 100); // центрирование фигуры
-}
-
-function q(n) {
-  return 15 * Math.sin(n) ** 3 + 2 * Math.sin(2 * n);
-}
-
-function qq(n) {
-  return 20 * Math.cos(n) - 8 * Math.cos(2 * n) - 5 * Math.cos(3 * n) - 2 * Math.cos(4 * n) + 5 * Math.cos(2 * n);
-}
-
-function draw() {
-  beginShape();
-  for (let i = 0; i < 2400; i++) {
-    let x = q(i / 100) * 10;
-    let y = qq(i / 100) * 10;
-    vertex(x, y);
-  }
-  endShape();
-  noLoop(); // Останавливает анимацию после отрисовки
-}
-    </script>
     <div class="back">
 
         <div class="header">
-            <img src="./insomniaa/img/b23bce7e6a41d84ca9af8b94d5b18d8f.gif" />
+            <img src="./img/b23bce7e6a41d84ca9af8b94d5b18d8f.gif" />
             <h1 class="header-title"> <3 </h1>
         </div>
     </div>
